@@ -8,6 +8,7 @@
   grid-row-gap: 5px;
   /* justify-content: start; */
   align-content:start;
+  grid-template-areas: 'item1 item1 item1 item1 item1';
 }
 .grid-item{
   border:1px solid rgba(1, 1, 1, 0.8);
@@ -18,10 +19,11 @@
 }
 .item1{
   background-color:red;
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start:1;
-  grid-row-end:3;
+  grid-row-end:3; */
+  grid-area: item1;
   border: 1px solid red;
   padding:15px;
 }

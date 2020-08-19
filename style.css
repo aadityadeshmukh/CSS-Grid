@@ -1,0 +1,24 @@
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:#2196F3;
+  padding:15px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.grid-item{
+  border:1px solid rgba(1, 1, 1, 0.8);
+  background-color:rgba(255, 255, 255, 0.8);
+  padding:20px;
+  font-size:30px;
+  text-align:center;
+}
+.item1{
+  background-color:red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start:1;
+  grid-row-end:3;
+  border: 1px solid red;
+  padding:15px;
+}

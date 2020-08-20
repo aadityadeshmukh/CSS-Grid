@@ -58,5 +58,5 @@
 .background-border{
   border: 10px solid transparent;
   padding: 15px;
-  border-image:url('https://www.w3schools.com/css/border.png') 50 stretch;
+  border-image:url('https://www.w3schools.com/css/border.png') 20% round;
 }

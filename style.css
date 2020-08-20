@@ -61,9 +61,6 @@
   border-image:url('https://www.w3schools.com/css/border.png') 20% round;
 }
 .css-backgrounds{
-  padding:100px;
-  background: url('https://www.w3schools.com/css/img_flwr.gif'), url('https://www.w3schools.com/css/paper.gif');
-  background-repeat: no-repeat, repeat;
-  background-position: right bottom, left top;
-  background-size: 80px 100px;
+background-image: linear-gradient(red, yellow);
+padding: 100px;
 }

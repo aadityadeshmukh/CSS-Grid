@@ -87,5 +87,6 @@ p.test2:hover{
 p.ww-test{
   border:2px solid black;
   width: 50px;
-  word-wrap: break-all;
+  word-wrap: keep-all;
+  writing-mode: vertical-lr;
 }

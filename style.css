@@ -74,6 +74,11 @@ p.test1{
   text-overflow: clipped;
 
 }
+@font-face{
+  font-family: myFirstFont;
+  src: url(https://www.w3schools.com/css/sansation_bold.woff);
+  font-weight: bold;
+}
 p.test2{
   width:200px;
   white-space:nowrap;
@@ -89,4 +94,7 @@ p.ww-test{
   width: 50px;
   word-wrap: keep-all;
   writing-mode: vertical-lr;
+}
+p{
+  font-family: myFirstFont;
 }

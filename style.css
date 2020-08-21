@@ -81,3 +81,11 @@ p.test2{
   overflow:hidden;
   text-overflow: ellipsis;
 }
+p.test2:hover{
+  overflow: visible;
+}
+p.ww-test{
+  border:2px solid black;
+  width: 100px;
+  word-wrap: break-word;
+}

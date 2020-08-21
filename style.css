@@ -86,6 +86,6 @@ p.test2:hover{
 }
 p.ww-test{
   border:2px solid black;
-  width: 100px;
-  word-wrap: break-word;
+  width: 50px;
+  word-wrap: break-all;
 }

@@ -99,5 +99,8 @@ p{
   font-family: myFirstFont;
 }
 img{
-  border-radius: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  
 }

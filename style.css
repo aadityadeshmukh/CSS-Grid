@@ -98,3 +98,6 @@ p.ww-test{
 p{
   font-family: myFirstFont;
 }
+img{
+  border-radius: 5px;
+}

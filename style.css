@@ -148,10 +148,11 @@ div.container{
 }
 .transformations{
   background-color:red;
+  margin:auto;
   width:100px;
   height:100px;
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: rotate(45deg);
+  transform: scale(2,3);
 }

@@ -154,5 +154,5 @@ div.container{
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: scale(2,3);
+  transform: scaleX(2);
 }

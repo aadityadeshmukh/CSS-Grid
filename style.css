@@ -157,5 +157,5 @@ div.container{
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: skew(20deg,20deg);
+  transform: skewX(20deg);
 }

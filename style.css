@@ -149,10 +149,13 @@ div.container{
 .transformations{
   background-color:red;
   margin:auto;
+  position:fixed;
+  top:50%;
+  left:50%;
   width:100px;
   height:100px;
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: scaleY(2);
+  transform: skew(20deg,20deg);
 }

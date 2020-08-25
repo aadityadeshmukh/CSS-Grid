@@ -154,10 +154,11 @@ div.container{
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transition:width 2s;
+  transition:width 2s, transform 2s;
 }
 .transformations:hover{
   width:200px;
+  transform: rotate(180deg);
 }
 #div1{
   transition-timing-function: linear;

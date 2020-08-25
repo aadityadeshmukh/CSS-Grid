@@ -161,6 +161,7 @@ div.container{
 }
 #div1{
   transition-timing-function: linear;
+  transition-delay:1s;
 }
 #div2{
   transition-timing-function: ease;

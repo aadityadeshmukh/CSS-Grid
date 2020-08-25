@@ -157,5 +157,7 @@ div.container{
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: rotateX(150deg);
+  transform: translateX(150px);
+  transform: translateY(150px);
+  transform: translateZ(150px);
 }

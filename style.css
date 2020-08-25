@@ -149,17 +149,28 @@ div.container{
 .transformations{
   background-color:red;
   margin:auto;
-  position:fixed;
-  top:50%;
-  left:50%;
   width:100px;
   height:100px;
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transition:width 2s, height 2s;
+  transition:width 2s;
 }
 .transformations:hover{
   width:200px;
-  height:200px;
+}
+#div1{
+  transition-timing-function: linear;
+}
+#div2{
+  transition-timing-function: ease;
+}
+#div3{
+  transition-timing-function: ease-in;
+}
+#div4{
+  transition-timing-function: ease-out;
+}
+#div5{
+  transition-timing-function: ease-in-out;
 }

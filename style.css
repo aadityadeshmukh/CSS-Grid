@@ -157,5 +157,8 @@ div.container{
   padding:10px;
   border: 1px solid black;
   border-width: 10px;
-  transform: scaleZ(1.5);
+  transition:width 2s;
+}
+.transformations:hover{
+  width:200px;
 }

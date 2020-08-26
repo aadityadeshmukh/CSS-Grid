@@ -6,14 +6,38 @@
   75%{background-color:green;left:0px;top:200px;}
   100%{background-color:red;left:0px;top:0px;}
 }
-div {
+div.anima {
   width:100px;
   height:100px;
   background-color:red;
   animation: example;
-  animation-duration: 4s;
+  animation-duration: 0;
   position: relative;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
   animation-fill-mode:forwards;
+}
+div.Tooltip{
+  position:relative;
+  display:inline-block;
+  border-bottom: 1px dotted black;
+}
+.Tooltip-text{
+  position:absolute;
+  z-index: 1;
+
+  visibility:hidden;
+  background-color:black;
+  color:white;
+  padding: 5px 0;
+  text-align:center;
+  border-radius: 6px;
+  width:120px;
+}
+.Tooltip:hover .Tooltip-text{
+  visibility: visible;
+}
+.Tooltip-text .Tooltip{
+  top:-5px;
+  left:105%;
 }

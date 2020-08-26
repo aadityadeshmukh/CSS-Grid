@@ -36,9 +36,8 @@ div.Tooltip{
 
   position:absolute;
   z-index: 1;
-  top:100%;
-  left:50%;
-  margin-left: -60px;
+  top:-5px;
+  right:105%;
 }
 .Tooltip:hover .Tooltip-text{
   visibility: visible;

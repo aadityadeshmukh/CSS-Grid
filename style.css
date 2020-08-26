@@ -17,15 +17,15 @@ div.anima {
   animation-timing-function: ease-in-out;
   animation-fill-mode:forwards;
 }
+body{
+  text-align: center;
+}
 div.Tooltip{
   position:relative;
   display:inline-block;
   border-bottom: 1px dotted black;
 }
-.Tooltip-text{
-  position:absolute;
-  z-index: 1;
-
+.Tooltip .Tooltip-text{
   visibility:hidden;
   background-color:black;
   color:white;
@@ -33,11 +33,13 @@ div.Tooltip{
   text-align:center;
   border-radius: 6px;
   width:120px;
+
+  position:absolute;
+  z-index: 1;
+  top:100%;
+  left:50%;
+  margin-left: -60px;
 }
 .Tooltip:hover .Tooltip-text{
   visibility: visible;
-}
-.Tooltip-text .Tooltip{
-  top:-5px;
-  left:105%;
 }

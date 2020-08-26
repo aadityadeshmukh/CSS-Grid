@@ -58,3 +58,23 @@ div.Tooltip{
   border-style: solid;
   border-color: transparent transparent black transparent; 
 }
+.styled-button{
+  border:none;
+  text-decoration: none;
+  padding: 15px 32px;
+  color:white;
+  text-align: center;
+  display:inline-block;
+}
+.btn1{
+  background-color: #008CBA;
+  font-size: 16px;
+}
+.btn2{
+  background-color: #f44336;
+  font-size: 24px;
+}
+.btn3{
+  background-color: #555555;
+  font-size: 28px;
+}

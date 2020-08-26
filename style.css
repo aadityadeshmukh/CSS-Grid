@@ -36,9 +36,21 @@ div.Tooltip{
 
   position:absolute;
   z-index: 1;
-  top:-5px;
-  right:105%;
+  bottom:100%;
+  left:50%;
+  margin-left: -60px;
 }
 .Tooltip:hover .Tooltip-text{
   visibility: visible;
+}
+
+.Tooltip .Tooltip-text::after{
+  content:" ";
+  position:absolute;
+  bottom:100%;
+  left:50%;
+  margin-left:-5px;
+  border-width:5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent; 
 }

@@ -1,4 +1,7 @@
 
+:root{
+  --bg-color: blue;
+}
 @keyframes example{
   0%{background-color:red;left:0px;top:0px;}
   25%{background-color:yellow;left:200px;top:0px;}
@@ -9,7 +12,7 @@
 div.anima {
   width:100px;
   height:100px;
-  background-color:red;
+  background-color:var(--bg-color);
   animation: example;
   animation-duration: 0;
   position: relative;
@@ -27,7 +30,7 @@ div.Tooltip{
 }
 .Tooltip .Tooltip-text{
   visibility:hidden;
-  background-color:black;
+  background-color:var(--bg-color);
   color:white;
   padding: 5px 0;
   text-align:center;
@@ -71,7 +74,7 @@ div.Tooltip{
   font-size: 16px;
 }
 .btn2{
-  background-color: #f44336;
+  background-color: var(--bg-color, black);
   font-size: 24px;
 }
 .btn3{

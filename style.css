@@ -130,4 +130,9 @@ div.newspaper{
   column-rule-color: lightseagreen;
   column-span:all;
   column-width: 50px;
+  resize:both;
+  overflow: auto;
+  border: 1px solid black;
+  outline-offset: 5px;
+  outline:1px solid red;
 }

@@ -99,9 +99,6 @@ div.Tooltip{
 .pagination a:hover:not(.active){
   background-color:#555555;
 }
-.center{
-  text-align: center;
-}
 
 .breadcrumb a{
   text-decoration: none;
@@ -113,11 +110,24 @@ div.Tooltip{
 }
 ul.breadcrumb{
   background-color: lightgrey;
-  float:left;
   padding: 8px 16px;
 }
 ul.breadcrumb li+li:before{
   content: "/\00a0";
   padding: 8px;
   color: black;
+}
+.center{
+  text-align: center;
+}
+
+div.newspaper{
+  display: block;
+  column-count: 3;
+  column-gap:40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: lightseagreen;
+  column-span:all;
+  column-width: 50px;
 }

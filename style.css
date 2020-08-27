@@ -137,5 +137,18 @@ div.newspaper{
   overflow: auto;
   border: 1px solid black;
   outline-offset: 5px;
-  outline:1px solid red;
+  margin: 10px;
+}
+div.default{
+border: 1px solid black;
+width:300px;
+height: 200px;
+box-sizing:border-box;
+}
+div.withpad{
+  border: 1px solid red;
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  box-sizing:border-box;
 }

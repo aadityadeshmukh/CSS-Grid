@@ -78,3 +78,46 @@ div.Tooltip{
   background-color: #555555;
   font-size: 28px;
 }
+.pagination{
+  display: inline-block;
+}
+.pagination a{
+  text-decoration:none;
+  float:left;
+  padding: 10px 20px;
+  color:black;
+  border-radius: 5px;
+  transition: background-color 1s;
+  border: 1px solid black;
+  margin: 2px;
+  font-size: 22px;
+}
+.pagination a.active{
+  background-color:#008CBA;
+  color:white;
+}
+.pagination a:hover:not(.active){
+  background-color:#555555;
+}
+.center{
+  text-align: center;
+}
+
+.breadcrumb a{
+  text-decoration: none;
+}
+
+.breadcrumb li{
+  list-style-type: none;
+  display: inline;
+}
+ul.breadcrumb{
+  background-color: lightgrey;
+  float:left;
+  padding: 8px 16px;
+}
+ul.breadcrumb li+li:before{
+  content: "/\00a0";
+  padding: 8px;
+  color: black;
+}
